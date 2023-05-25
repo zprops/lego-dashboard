@@ -1,0 +1,9 @@
+pandas==1.5.3
+numpy==1.24.2
+plotly==5.14.1
+datetime==5.1
+discord==2.2.2
+statsmodels==0.13.5
+scikit-learn==1.2.2
+kaleido==0.2.1
+streamlit==1.22.0
