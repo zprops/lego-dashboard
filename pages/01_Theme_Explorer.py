@@ -53,7 +53,7 @@ with st.expander("Theme Explorer Sunburst", expanded=True):
 
         #👇 Paste the code created in activity 3.1 to create the visualization of the df_sunburst DataFrame
         # Plotting the chart
-        fig_sunburst = px.sunburst(df_sunburst, path=['parent_theme_name', 'theme_name', 'set_name'], values='nbr', height=900, color_discrete_sequence=px.colors.qualitative.Plotly)
+        fig_sunburst = px.sunburst(df_sunburst, path=['parent_theme_name', 'theme_name', 'set_name'], values='nbr', height=800, color_discrete_sequence=px.colors.qualitative.Plotly)
 
         #👇 Use a plotly widget from Streamlit to visualize the fig_sunburst plot. Pass the parameter use_container_width =True to ensure the visualization expands to the container width.
         st.plotly_chart(fig_sunburst, use_container_width=True)
